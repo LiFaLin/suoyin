@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA6CB9F1E36F20900AB386F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6CB9E1E36F20900AB386F /* main.m */; };
+		FDA6CBA21E36F20900AB386F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6CBA11E36F20900AB386F /* AppDelegate.m */; };
+		FDA6CBA81E36F20900AB386F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA6CBA61E36F20900AB386F /* Main.storyboard */; };
+		FDA6CBAA1E36F20900AB386F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA6CBA91E36F20900AB386F /* Assets.xcassets */; };
+		FDA6CBAD1E36F20900AB386F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA6CBAB1E36F20900AB386F /* LaunchScreen.storyboard */; };
+		FDA6CBB81E36F20900AB386F /* Suoyin__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6CBB71E36F20900AB386F /* Suoyin__Tests.m */; };
+		FDA6CBC31E36F20900AB386F /* Suoyin__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6CBC21E36F20900AB386F /* Suoyin__UITests.m */; };
+		FDA6CBD21E36F23000AB386F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6CBD11E36F23000AB386F /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA6CBB41E36F20900AB386F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA6CB921E36F20900AB386F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA6CB991E36F20900AB386F;
+			remoteInfo = "Suoyin索引";
+		};
+		FDA6CBBF1E36F20900AB386F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA6CB921E36F20900AB386F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA6CB991E36F20900AB386F;
+			remoteInfo = "Suoyin索引";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA6CB9A1E36F20900AB386F /* Suoyin索引.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Suoyin索引.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA6CB9E1E36F20900AB386F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA6CBA01E36F20900AB386F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA6CBA11E36F20900AB386F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA6CBA71E36F20900AB386F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA6CBA91E36F20900AB386F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA6CBAC1E36F20900AB386F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA6CBAE1E36F20900AB386F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA6CBB31E36F20900AB386F /* Suoyin索引Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Suoyin索引Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA6CBB71E36F20900AB386F /* Suoyin__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Suoyin__Tests.m; sourceTree = "<group>"; };
+		FDA6CBB91E36F20900AB386F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA6CBBE1E36F20900AB386F /* Suoyin索引UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Suoyin索引UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA6CBC21E36F20900AB386F /* Suoyin__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Suoyin__UITests.m; sourceTree = "<group>"; };
+		FDA6CBC41E36F20900AB386F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA6CBD01E36F23000AB386F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FDA6CBD11E36F23000AB386F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA6CB971E36F20900AB386F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA6CBB01E36F20900AB386F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA6CBBB1E36F20900AB386F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA6CB911E36F20900AB386F = {
+			isa = PBXGroup;
+			children = (
+				FDA6CB9C1E36F20900AB386F /* Suoyin索引 */,
+				FDA6CBB61E36F20900AB386F /* Suoyin索引Tests */,
+				FDA6CBC11E36F20900AB386F /* Suoyin索引UITests */,
+				FDA6CB9B1E36F20900AB386F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA6CB9B1E36F20900AB386F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6CB9A1E36F20900AB386F /* Suoyin索引.app */,
+				FDA6CBB31E36F20900AB386F /* Suoyin索引Tests.xctest */,
+				FDA6CBBE1E36F20900AB386F /* Suoyin索引UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA6CB9C1E36F20900AB386F /* Suoyin索引 */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6CBA01E36F20900AB386F /* AppDelegate.h */,
+				FDA6CBA11E36F20900AB386F /* AppDelegate.m */,
+				FDA6CBD01E36F23000AB386F /* RootViewController.h */,
+				FDA6CBD11E36F23000AB386F /* RootViewController.m */,
+				FDA6CBA61E36F20900AB386F /* Main.storyboard */,
+				FDA6CBA91E36F20900AB386F /* Assets.xcassets */,
+				FDA6CBAB1E36F20900AB386F /* LaunchScreen.storyboard */,
+				FDA6CBAE1E36F20900AB386F /* Info.plist */,
+				FDA6CB9D1E36F20900AB386F /* Supporting Files */,
+			);
+			path = "Suoyin索引";
+			sourceTree = "<group>";
+		};
+		FDA6CB9D1E36F20900AB386F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6CB9E1E36F20900AB386F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA6CBB61E36F20900AB386F /* Suoyin索引Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6CBB71E36F20900AB386F /* Suoyin__Tests.m */,
+				FDA6CBB91E36F20900AB386F /* Info.plist */,
+			);
+			path = "Suoyin索引Tests";
+			sourceTree = "<group>";
+		};
+		FDA6CBC11E36F20900AB386F /* Suoyin索引UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6CBC21E36F20900AB386F /* Suoyin__UITests.m */,
+				FDA6CBC41E36F20900AB386F /* Info.plist */,
+			);
+			path = "Suoyin索引UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA6CB991E36F20900AB386F /* Suoyin索引 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA6CBC71E36F20900AB386F /* Build configuration list for PBXNativeTarget "Suoyin索引" */;
+			buildPhases = (
+				FDA6CB961E36F20900AB386F /* Sources */,
+				FDA6CB971E36F20900AB386F /* Frameworks */,
+				FDA6CB981E36F20900AB386F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Suoyin索引";
+			productName = "Suoyin索引";
+			productReference = FDA6CB9A1E36F20900AB386F /* Suoyin索引.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA6CBB21E36F20900AB386F /* Suoyin索引Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA6CBCA1E36F20900AB386F /* Build configuration list for PBXNativeTarget "Suoyin索引Tests" */;
+			buildPhases = (
+				FDA6CBAF1E36F20900AB386F /* Sources */,
+				FDA6CBB01E36F20900AB386F /* Frameworks */,
+				FDA6CBB11E36F20900AB386F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA6CBB51E36F20900AB386F /* PBXTargetDependency */,
+			);
+			name = "Suoyin索引Tests";
+			productName = "Suoyin索引Tests";
+			productReference = FDA6CBB31E36F20900AB386F /* Suoyin索引Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA6CBBD1E36F20900AB386F /* Suoyin索引UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA6CBCD1E36F20900AB386F /* Build configuration list for PBXNativeTarget "Suoyin索引UITests" */;
+			buildPhases = (
+				FDA6CBBA1E36F20900AB386F /* Sources */,
+				FDA6CBBB1E36F20900AB386F /* Frameworks */,
+				FDA6CBBC1E36F20900AB386F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA6CBC01E36F20900AB386F /* PBXTargetDependency */,
+			);
+			name = "Suoyin索引UITests";
+			productName = "Suoyin索引UITests";
+			productReference = FDA6CBBE1E36F20900AB386F /* Suoyin索引UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA6CB921E36F20900AB386F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "李发林";
+				TargetAttributes = {
+					FDA6CB991E36F20900AB386F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 478373Z84G;
+						ProvisioningStyle = Automatic;
+					};
+					FDA6CBB21E36F20900AB386F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA6CB991E36F20900AB386F;
+					};
+					FDA6CBBD1E36F20900AB386F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA6CB991E36F20900AB386F;
+					};
+				};
+			};
+			buildConfigurationList = FDA6CB951E36F20900AB386F /* Build configuration list for PBXProject "Suoyin索引" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA6CB911E36F20900AB386F;
+			productRefGroup = FDA6CB9B1E36F20900AB386F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA6CB991E36F20900AB386F /* Suoyin索引 */,
+				FDA6CBB21E36F20900AB386F /* Suoyin索引Tests */,
+				FDA6CBBD1E36F20900AB386F /* Suoyin索引UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA6CB981E36F20900AB386F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA6CBAD1E36F20900AB386F /* LaunchScreen.storyboard in Resources */,
+				FDA6CBAA1E36F20900AB386F /* Assets.xcassets in Resources */,
+				FDA6CBA81E36F20900AB386F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA6CBB11E36F20900AB386F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA6CBBC1E36F20900AB386F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA6CB961E36F20900AB386F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA6CBA21E36F20900AB386F /* AppDelegate.m in Sources */,
+				FDA6CB9F1E36F20900AB386F /* main.m in Sources */,
+				FDA6CBD21E36F23000AB386F /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA6CBAF1E36F20900AB386F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA6CBB81E36F20900AB386F /* Suoyin__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA6CBBA1E36F20900AB386F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA6CBC31E36F20900AB386F /* Suoyin__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA6CBB51E36F20900AB386F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA6CB991E36F20900AB386F /* Suoyin索引 */;
+			targetProxy = FDA6CBB41E36F20900AB386F /* PBXContainerItemProxy */;
+		};
+		FDA6CBC01E36F20900AB386F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA6CB991E36F20900AB386F /* Suoyin索引 */;
+			targetProxy = FDA6CBBF1E36F20900AB386F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA6CBA61E36F20900AB386F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA6CBA71E36F20900AB386F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA6CBAB1E36F20900AB386F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA6CBAC1E36F20900AB386F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA6CBC51E36F20900AB386F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDA6CBC61E36F20900AB386F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA6CBC81E36F20900AB386F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 478373Z84G;
+				INFOPLIST_FILE = "Suoyin索引/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidaiyouxi.Suoyin--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA6CBC91E36F20900AB386F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 478373Z84G;
+				INFOPLIST_FILE = "Suoyin索引/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidaiyouxi.Suoyin--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDA6CBCB1E36F20900AB386F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Suoyin索引Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidaiyouxi.Suoyin--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suoyin索引.app/Suoyin索引";
+			};
+			name = Debug;
+		};
+		FDA6CBCC1E36F20900AB386F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Suoyin索引Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidaiyouxi.Suoyin--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suoyin索引.app/Suoyin索引";
+			};
+			name = Release;
+		};
+		FDA6CBCE1E36F20900AB386F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Suoyin索引UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidaiyouxi.Suoyin--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Suoyin索引";
+			};
+			name = Debug;
+		};
+		FDA6CBCF1E36F20900AB386F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Suoyin索引UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidaiyouxi.Suoyin--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Suoyin索引";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA6CB951E36F20900AB386F /* Build configuration list for PBXProject "Suoyin索引" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA6CBC51E36F20900AB386F /* Debug */,
+				FDA6CBC61E36F20900AB386F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA6CBC71E36F20900AB386F /* Build configuration list for PBXNativeTarget "Suoyin索引" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA6CBC81E36F20900AB386F /* Debug */,
+				FDA6CBC91E36F20900AB386F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA6CBCA1E36F20900AB386F /* Build configuration list for PBXNativeTarget "Suoyin索引Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA6CBCB1E36F20900AB386F /* Debug */,
+				FDA6CBCC1E36F20900AB386F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA6CBCD1E36F20900AB386F /* Build configuration list for PBXNativeTarget "Suoyin索引UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA6CBCE1E36F20900AB386F /* Debug */,
+				FDA6CBCF1E36F20900AB386F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA6CB921E36F20900AB386F /* Project object */;
+}
