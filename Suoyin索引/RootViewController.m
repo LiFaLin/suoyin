@@ -48,6 +48,10 @@
     
     //初始化背景图
     NSLog(@"--%@",NSHomeDirectory());
+    
+    
+    NSLog(@"fvjc");
+    
     [self initBackGroundView];
 }
 #pragma -mark -functions
