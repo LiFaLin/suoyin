@@ -47,6 +47,7 @@
     // Do any additional setup after loading the view.
     
     //初始化背景图
+    NSLog(@"--%@",NSHomeDirectory());
     [self initBackGroundView];
 }
 #pragma -mark -functions
