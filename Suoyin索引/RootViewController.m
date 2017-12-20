@@ -50,7 +50,7 @@
     NSLog(@"--%@",NSHomeDirectory());
     
     
-    NSLog(@"fvjc");
+    
     
     [self initBackGroundView];
 }
